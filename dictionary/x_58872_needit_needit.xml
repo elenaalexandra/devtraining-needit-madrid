@@ -2,6 +2,7 @@
     <element label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Camp nou" max_length="40" name="camp_nou" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="When needed" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" choice="1" label="What needed" max_length="1024" name="u_glide_list_2" reference="x_58872_needit_tabel_2" type="glide_list">
             <choice/>
         </element>
